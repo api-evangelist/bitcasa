@@ -1,7 +1,26 @@
 aid: bitcasa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitcasa.png
 name: Bitcasa
-description: Bitcasa is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Bitcasa, Inc. was an American cloud storage company (founded 2011 in St. Louis,
+  Missouri; later based in Mountain View, California) known for its converged/infinite storage
+  model and, for developers, the CloudFS API — a white-label cloud-storage platform that let
+  third-party applications integrate file management, secure sharing, media transcoding, instant
+  streaming, and zero-knowledge client-side encryption. Backed by Andreessen Horowitz (a16z),
+  CrunchFund, Pelion Venture Partners, Horizons Ventures, Samsung Ventures, and First Round
+  Capital, Bitcasa wound down its consumer Bitcasa Drive service in 2016 and shut down all
+  services in 2017. The company is defunct and the bitcasa.com domain is now parked, so no live
+  developer surface, API documentation, or specifications remain to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/bitcasa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,27 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Shut down 2017; bitcasa.com domain now parked (no live developer surface).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cloud Storage
+- File Storage
+- Storage
+- Encryption
+- File Sharing
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
